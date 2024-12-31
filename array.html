@@ -1,0 +1,43 @@
+<html>
+
+<head>
+
+<title> js arrays </title>
+</head>
+
+<body>
+
+<h1
+style="text-align: center; margin: auto; border: 1px solid;
+width: 300px;"> js arrays </h1>
+
+<p id="demo" style="font-size: x-large;"> </p>
+
+<p id="demo2" style="font-size: x-large;"> </p>
+
+<p id="joining" style="font-size: x-large;"> </p>
+<p id="mylist" style="font-size: x-large;"> </p>
+<p id="mylist2" style="font-size: x-large;"> </p>
+<script>
+
+
+var colors = ["red", "blue", "green", "yellow", "pink"];
+
+document.getElementById("demo").innerHTML= colors[4];
+
+
+document.getElementById("demo2").innerHTML= Math.round(7.8);
+
+document.getElementById("joining").innerHTML= colors.join("*");
+
+
+document.getElementById("mylist").innerHTML= colors;
+
+colors.pop();
+
+
+document.getElementById("mylist2").innerHTML= colors;
+</script>
+
+</body>
+</html>
